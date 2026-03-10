@@ -1,0 +1,5 @@
+অপশন,কেন ভুল?
+To identify outliers,"আউটলায়ার নিউমেরিক্যাল ফিচারের জন্য (boxplot, scatter দিয়ে দেখা হয়)"
+To check if some categories have very few samples,সঠিক — এটাই মূল উদ্দেশ্য
+To detect linear correlation,লিনিয়ার কোরিলেশন নিউমেরিক্যাল ফিচারের জন্য (correlation heatmap)
+To scale the data,"স্কেলিং (normalization/standardization) নিউমেরিক্যাল ফিচারের জন্য, ক্যাটাগরিক্যালের না"

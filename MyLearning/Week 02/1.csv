@@ -1,0 +1,10 @@
+প্লটের নাম,প্রাইমারি কাজ কী?,এটা কি আসলে দেখায়?,সঠিক উত্তরের সাথে মিলে?
+Boxplot,"নিউমেরিক্যাল ডেটার স্প্রেড (spread), কোয়ার্টাইল, মিডিয়ান এবং আউটলায়ার দেখানো","- মিনিমাম (Q1 - 1.5IQR)
+- Q1 (25th percentile)
+- মিডিয়ান (50th percentile)
+- Q3 (75th percentile)
+- ম্যাক্সিমাম (Q3 + 1.5IQR)
+- আউটলায়ার (dots বাইরে)",হ্যাঁ – প্রাইমারি উদ্দেশ্য এটাই
+Class imbalance,ক্লাস ডিস্ট্রিবিউশন (যেমন 0 vs 1) দেখা,Countplot / Bar plot / Pie chart দিয়ে দেখা যায়,না
+Correlation,ভ্যারিয়েবলগুলোর মধ্যে সম্পর্ক (positive/negative),Heatmap (correlation matrix) বা Scatter plot,না
+Category frequencies,ক্যাটাগরিক্যাল ভ্যারিয়েবলের ফ্রিকোয়েন্সি,"Countplot, Bar plot",না

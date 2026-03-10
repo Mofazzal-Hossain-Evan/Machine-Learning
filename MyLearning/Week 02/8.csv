@@ -1,0 +1,5 @@
+অপশন,Pairplot কি এটা করে?,কেন সঠিক/ভুল?
+Exploring pairwise relationships among multiple numerical variables,হ্যাঁ — প্রতিটি জোড়া ফিচারের জন্য scatter plot + ডায়াগোনালে histogram/kde plot,সঠিক — এটাই pairplot-এর প্রাইমারি এবং সবচেয়ে বড় উদ্দেশ্য
+Showing missing value patterns,না — মিসিং ভ্যালু দেখার জন্য heatmap বা missingno লাইব্রেরি ব্যবহার করা হয়,ভুল
+Encoding categorical variables,না — ক্যাটাগরিক্যাল এনকোডিং (label/one-hot) করার সাথে pairplot-এর কোনো সম্পর্ক নেই,ভুল
+Detecting class imbalance,"আংশিক — যদি hue= দিয়ে টার্গেট ক্লাস দাও তাহলে ক্লাস-ভিত্তিক প্যাটার্ন দেখা যায়, কিন্তু এটা প্রাইমারি উদ্দেশ্য নয়",ভুল (প্রাইমারি উদ্দেশ্য নয়)
